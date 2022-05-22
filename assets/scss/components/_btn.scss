@@ -1,0 +1,68 @@
+.c-btn {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #000;
+  display: inline-flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: center;
+  line-height: 21px;
+  padding: 0 12px;
+  text-align: center;
+  transition: 0.3s;
+  vertical-align: middle;
+
+  &__xs {
+    font-size: 12px;
+    height: 24px;
+    line-height: 18px;
+  }
+  &__bdr-round {
+    border-radius: 60px;
+  }
+  &__outline-primary {
+    background: 0 0;
+    border-color: #000;
+    color: #000;
+  }
+}
+
+.mz-grd-btn {
+  &__inner {
+    align-items: center;
+    background: 0 0;
+    border-radius: 3px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 0 12px;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.c-grd-btn {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 21px;
+  padding: 1px;
+  position: relative;
+  transition: 0.3s;
+  vertical-align: middle;
+}
+
+.c-grd-btn-bdr-round {
+  border-radius: 60px;
+}
+
+.c-grd-btn-lg {
+  font-size: 14px;
+  height: 40px;
+  line-height: 21px;
+}

@@ -1,0 +1,79 @@
+.mz-basic-box {
+  border-bottom: 1px solid #ccd2dc;
+  margin-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  &__head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  &__title {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+  &__title-viewmore {
+    color: #2e2e2e;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-right: auto;
+  }
+  &__inner {
+  }
+  &:last-child {
+    border-bottom: unset;
+  }
+}
+
+.c-btn-sm {
+  font-size: 13px;
+  height: 28px;
+  line-height: 19px;
+}
+
+.mz-px-8 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.mz-p-4 {
+  padding: 1rem !important;
+}
+
+.mz-define-amazon-content {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.mz-uppercase {
+  text-transform: uppercase !important;
+}
+.mz-font-bold {
+  font-weight: 700 !important;
+}
+.mz-text-xs {
+  font-size: 12px !important;
+}
+.mz-mb-4 {
+  margin-bottom: 1rem !important;
+}
+.mz-text-xs {
+  font-size: 12px !important;
+}
+.mz-mb-4 {
+  margin-bottom: 1rem !important;
+}
+.mz--mt-2 {
+  margin-top: -0.5rem !important;
+}
+.mz-text-gray-dark {
+  color: #191a1a !important;
+}
+.mz-ml-2 {
+  margin-left: 0.5rem !important;
+}

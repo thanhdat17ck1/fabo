@@ -1,0 +1,43 @@
+.c-breadcrumb {
+  &__list {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    width: 100%;
+  }
+  &__item {
+    align-items: center;
+    display: flex;
+    margin-right: 8px;
+    position: relative;
+    &:not(:last-child) {
+      &::after {
+        border-right: 1px solid #cfd5de;
+        content: "";
+        height: 20px;
+        margin-top: -10px;
+        position: absolute;
+        right: -4px;
+        top: 50%;
+        transform: rotate(20deg);
+        width: 1px;
+        z-index: 2;
+      }
+    }
+  }
+  &__item-inner {
+    color: #2e2e2e;
+    max-width: 500px;
+    padding: 0 8px;
+  }
+  &__item-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000;
+    font-weight: 400;
+  }
+}
